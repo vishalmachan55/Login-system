@@ -1,0 +1,41 @@
+<! DOCTYPE html>
+<html>
+<body>
+
+	<script>
+		function login()
+			{
+				var un=document.forms ["my form"]["uname"].value;
+				var pass=document. forms["my form"]["pwd"].value; I
+				
+				if (un=="vishal")
+					{
+						if(pass=="123")
+							{	
+
+								alert("login success full") ;
+							}
+						else
+							{
+
+								alert("incorrect username or password")
+							}
+					}
+				else
+					{
+
+						alert("incorrect username or password") ;
+					}
+			}
+
+		</script>
+	
+		<form name="myform">
+			Username: <input type="text" name="uname"> <br>
+			Password: <input type="password" name="pwd"><br>
+			<input type="submit" onclick="login()">
+
+		</form>
+	</body>
+</html>>
+
